@@ -23,29 +23,29 @@
 // // let b = [...a];
 // console.log(b1);
 
- let a = [
-    {
-        id: 1,
-        name: "abc",
-        category: "A"
-    },
-    {
-        id: 2,
-        name: "def",
-        category: "B"
-    },
-    {
-        id: 3,
-        name: "ghi",
-        category: "C"
-    },
-    {
-        id: 4,
-        name: "jkl",
-        category: "C"
+//  let a = [
+//     {
+//         id: 1,
+//         name: "abc",
+//         category: "A"
+//     },
+//     {
+//         id: 2,
+//         name: "def",
+//         category: "B"
+//     },
+//     {
+//         id: 3,
+//         name: "ghi",
+//         category: "C"
+//     },
+//     {
+//         id: 4,
+//         name: "jkl",
+//         category: "C"
         
-    }
- ];
+//     }
+//  ];
 
 //  let numArray = [ 10, 20, 30, 40]
 
@@ -134,14 +134,52 @@
 
 
 
+// ============Promise=================
+
+// let abc = () => new Promise((resolve, reject)=>{
+//     if(false){
+//         resolve("it is resolved");
+//     }else{
+//         reject("it is rejected")
+//     }
+// });
+
+// abc().then((success)=>{
+//     console.log(success);
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
 
 
+// let checkPassword = (password)=>new Promise((resolve, reject)=>{
+//     let numb = [12345 ];
+//     if (false) {
+//         (password == numb )
+//         resolve("Password is numbers");
+//     }else{
+//         reject("Password must be numbers")
+//     }
+// })
 
+// checkPassword().then((success)=>{
+//     console.log(success);
+// })
+// .catch((err)=>{
+//     console.log(err);
+// })
 
+//=============async await==============
 
-
-
-
+let async = async () =>{
+    console.log(1);
+    await console.log(2);
+    console.log(3)
+ }
+ 
+ async();
+ console.log(4);
+ console.log(5);
 
 
 
