@@ -171,17 +171,21 @@
 
 //=============async await==============
 
-let async = async () =>{
-    console.log(1);
-    await console.log(2);
-    console.log(3)
- }
+// let async = async () =>{
+//     console.log(1);
+//     await console.log(2);
+//     console.log(3)
+//  }
  
- async();
- console.log(4);
- console.log(5);
+//  async();
+//  console.log(4);
+//  console.log(5);
 
-
+// let abc = (a = "this is default value") =>{
+//     console.log(a);
+// }
+// abc("abc");
+// abc()
 
 
 
